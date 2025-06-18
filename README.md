@@ -1,7 +1,7 @@
 # Component Description
 | Author | Responsible |
 |--------|-------------|
-| `Rakshit shetty`   | Pure Pursuit Controller  |
+| `Rakshit Kumar Shetty`   | Pure Pursuit Controller  |
 | `Sandip Vasoya`    | Parking Maneuver         |
 | `Suraj Yadav`      | Driving Controller       |
 
@@ -106,7 +106,7 @@ The `reached_final_waypoint` method checks if the vehicle is close to the final 
 Various callback methods (`position_callback`, `path_callback`, `final_parking_callback`, `environment_model_callback`, `parking_callback`, and `pure_pursuit_callback`) update the internal state of the vehicle based on incoming messages. The `publish_twist_message` method publishes the control commands to the `/cmd_vel` topic to actuate the vehicle's movements.
 
 
-Refer [State diagram](https://git.hs-coburg.de/SpotFinder/sf_master/src/branch/main/resources/documentation/architecture.md#state-diagram) for vehicle state change.
+Refer [State diagram](https://github.com/Team-SpotFinder/sf_master/src/branch/main/resources/documentation/architecture.md#state-diagram) for vehicle state change.
 
 
 ## Requirements
@@ -117,20 +117,20 @@ Refer [State diagram](https://git.hs-coburg.de/SpotFinder/sf_master/src/branch/m
 
 ## Dependencies
 
-1. [sf_msgs](https://git.hs-coburg.de/SpotFinder/sf_msgs.git).
-2. [sf_localization](https://git.hs-coburg.de/SpotFinder/sf_localization.git)
-3. [sf_path_plan](https://git.hs-coburg.de/SpotFinder/sf_path_plan.git)
-4. [sf_env](https://git.hs-coburg.de/SpotFinder/sf_env.git)
-5. [pure_pursuit](https://git.hs-coburg.de/SpotFinder/sf_driving_controller/src/branch/main/sf_driving_controller/pure_pursuit.py)
-6. [parking_maneuver](https://git.hs-coburg.de/SpotFinder/sf_driving_controller/src/branch/main/sf_driving_controller/parking_manoeuver.py#L21)
+1. [sf_msgs](https://github.com/Team-SpotFinder/sf_msgs.git).
+2. [sf_localization](https://github.com/Team-SpotFinder/sf_localization.git)
+3. [sf_path_plan](https://github.com/Team-SpotFinder/sf_path_plan.git)
+4. [sf_env](https://github.com/Team-SpotFinder/sf_env.git)
+5. [pure_pursuit](https://github.com/Team-SpotFinder/sf_driving_controller/src/branch/main/sf_driving_controller/pure_pursuit.py)
+6. [parking_maneuver](https://github.com/Team-SpotFinder/sf_driving_controller/src/branch/main/sf_driving_controller/parking_manoeuver.py#L21)
 
 ## Installation
 
-This repository needs to be cloned, built and sourced. It needs to be cloned to `/src` folder of the ROS2 workspace. This can be done by following the instruction provided in the [sf_master](https://git.hs-coburg.de/SpotFinder/sf_master.git).
+This repository needs to be cloned, built and sourced. It needs to be cloned to `/src` folder of the ROS2 workspace. This can be done by following the instruction provided in the [sf_master](https://github.com/Team-SpotFinder/sf_master.git).
 
 ## Run Steps
 
-follow run steps in the [sf_master](https://git.hs-coburg.de/SpotFinder/sf_master.git)
+follow run steps in the [sf_master](https://github.com/Team-SpotFinder/sf_master.git)
 
 1. Follow the below command to run the `ros2pcan_node`.
 ```bash
