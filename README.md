@@ -67,7 +67,7 @@ Finally, this angle is converted to degrees and limited to a practical range for
 
 **Fig.1** 
 
-<img src="../Experimental Setup.png" alt="Image" width="1000"/>
+<img src="../resource/Experimental Setup.png" alt="Image" width="1000"/>
 
 
 - if image are not see here , please follow this path : resource/Experimental Setup.png
@@ -88,7 +88,7 @@ To finalize the parking maneuver, the vehicle needs to determine if it is close 
 
 **Fig.2** 
 
-<img src="../Figure.png" alt="Image" width="1000"/>
+<img src="../resource/Figure.png" alt="Image" width="1000"/>
 
 - if image are not see here , please follow this path : resource/Figure.png
 
