@@ -167,10 +167,10 @@ ros2 run sf_driving_controller parking
 ros2 run sf_driving_controller driving_controller
 ```
 ## Video: Pure Pursuit 
-- Your browser does not support the video tag. go into [here](src/sf_driving_controller/resource/integration_test_parking_manuver/test_parking_maneuver.mp4)
+- Your browser does not support the video tag. go into [here](resource/integration_test_parking_manuver/test_parking_maneuver.mp4)
 
 ## Video: Parking Maneuver
-- Your browser does not support the video tag. go into [here](src/sf_driving_controller/resource/integration_test_parking_manuver/test_parking_maneuver.mp4)
+- Your browser does not support the video tag. go into [here](resource/integration_test_parking_manuver/test_parking_maneuver.mp4)
 
 
 
