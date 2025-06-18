@@ -67,7 +67,7 @@ Finally, this angle is converted to degrees and limited to a practical range for
 
 **Fig.1** 
 
-<img src="https://github.com/Team-SpotFinder/sf_driving_controller/tree/main/resource/Experimental Setup.png" alt="Image" width="1000"/>
+<img src="resource/Experimental Setup.png" alt="Image" width="1000"/>
 
 
 - if image are not see here , please follow this path : resource/Experimental Setup.png
@@ -88,7 +88,7 @@ To finalize the parking maneuver, the vehicle needs to determine if it is close 
 
 **Fig.2** 
 
-<img src="https://github.com/Team-SpotFinder/sf_driving_controller/tree/main/resource/Figure.png" alt="Image" width="1000"/>
+<img src="resource/Figure.png" alt="Image" width="1000"/>
 
 - if image are not see here , please follow this path : resource/Figure.png
 
@@ -106,7 +106,7 @@ The `reached_final_waypoint` method checks if the vehicle is close to the final 
 Various callback methods (`position_callback`, `path_callback`, `final_parking_callback`, `environment_model_callback`, `parking_callback`, and `pure_pursuit_callback`) update the internal state of the vehicle based on incoming messages. The `publish_twist_message` method publishes the control commands to the `/cmd_vel` topic to actuate the vehicle's movements.
 
 
-Refer [State diagram](https://github.com/Team-SpotFinder/sf_master/src/tree/main/resources/documentation/architecture.md#state-diagram) for vehicle state change.
+Refer [State diagram](https://github.com/Team-SpotFinder/sf_master/blob/main/resources/images/state_diagram_m6.png) for vehicle state change.
 
 
 ## Requirements
